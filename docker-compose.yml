@@ -1,0 +1,25 @@
+version: "3"
+services:
+  mysql-standalone:
+    image: mysql:5.7
+   # networks:
+    #  - spring-boot-mysql-network
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'test'
+      MYSQL_USER: 'sa'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+  web-service:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8086:8086"
+   # networks:
+    #  - spring-network
+    depends_on:
+      - mysql-standalone
+#networks:
+ # spring-boot-mysql-network:
+  #  driver: bridge

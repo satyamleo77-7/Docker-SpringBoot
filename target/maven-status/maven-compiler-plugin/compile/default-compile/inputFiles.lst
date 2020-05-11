@@ -1,0 +1,5 @@
+/home/ubuntu/docker-mysql-spring-boot-example/src/main/java/com/techprimers/jpa/springdatajpahibernateexample/resource/Resource.java
+/home/ubuntu/docker-mysql-spring-boot-example/src/main/java/com/techprimers/jpa/springdatajpahibernateexample/Config.java
+/home/ubuntu/docker-mysql-spring-boot-example/src/main/java/com/techprimers/jpa/springdatajpahibernateexample/SpringDataJpaHibernateExampleApplication.java
+/home/ubuntu/docker-mysql-spring-boot-example/src/main/java/com/techprimers/jpa/springdatajpahibernateexample/resource/Users.java
+/home/ubuntu/docker-mysql-spring-boot-example/src/main/java/com/techprimers/jpa/springdatajpahibernateexample/resource/UserRepository.java
